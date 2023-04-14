@@ -20,17 +20,7 @@
     --fortune-background-image :  url(https://builder.moksy.com/wp-content/uploads/2022/08/london.png);
     --barack-background-image : url(https://builder.moksy.com/wp-content/uploads/2022/08/london.png);
     --cullen-background-image : url()
-
 }
-/* ============== #colton #comment form start  ============== */
-.colton .comment-form {
-    clear: both;
-}
-.colton .comment-form textarea {
-    height:160px;
-}
-/* ============== #colton #comment form end  ============== */
-
 
 html, body {
     font-family: var(--default-font);
@@ -77,16 +67,19 @@ h1 {
     font-size: 4rem;
     font-weight: 600;
 }
+
 h2 {
     font-family: var(--primary-font);
     color: var(--brand-color);
     font-size: 2.8rem;
     font-weight: 500;
 }
+
 h3 {
     font-size: 2rem;
     font-weight: 500;
 }
+
 h4 {
     font-size: 1rem;
     font-weight: 700;
@@ -96,6 +89,7 @@ h4 {
 h5 {
     font-size: 0.875rem;
 }
+
 h6 {
     font-size: 0.813rem;
     color: var(--text-color);
@@ -112,6 +106,7 @@ p {
     background-color: var(--darker-1-color);
     margin: 2rem auto;
 }
+
 .form-control-custom {
     border: 0.1rem solid var(--darker-1-color);
     width: 100%;
@@ -122,6 +117,7 @@ p {
     -webkit-border-radius: .3rem;
     -moz-border-radius: .3rem;
 }
+
 @media(max-width: 767px){
   .form-control-custom {      
       padding: .5rem;      
@@ -229,7 +225,6 @@ p {
 
 .btn-outline-primary,
 .btn-outline-primary:visited {
-
     background-color: var(--darker-2-color);
     border-color: var(--darker-2-color);
     background: none;
@@ -314,8 +309,6 @@ p {
     color: var(--light-brand-color)
 }
 
-
-
 dl, ol, ul {
     padding: 0
 }
@@ -327,15 +320,11 @@ dl, ol, ul {
     padding: 10px
 }
 
-
-
 @media(max-width: 1200px) {
   .mt30md {
     margin-top: 30px;
   }
 }
-
-
 
 /* header lead */
 .lead {
@@ -343,21 +332,18 @@ dl, ol, ul {
     font-weight: 400;
     color: var(--text-color)
 }
+
 @media(max-width: 767px) {
   .lead {
       font-size: 1.2rem      
   }
 }
 
-
-
-
 .btn-blue {
     color: var(--light-background-color);
     background-color:   var(--brand-color);
     border-color: var(--brand-color);
 }
-
 
 .btn-white {
     color: var(--brand-color);
@@ -374,23 +360,26 @@ dl, ol, ul {
     border-color: var(--brand-color);
 }
 
-
 /* error handler */
 .edric .error-content {
     padding: 70px 0 70px;
 }
+
 .edric .error-text{
     text-align: center;
 }
+
 .edric .error-text h1 {
     font-size: 80px;
     font-weight: 100;
 }
+
 @media(min-width: 768px){
  .edric .error-text h1 {
-     font-size: 100px;     
- }   
+     font-size: 100px;    
+ }  
 }
+
 @keyframes bob {
     0% {
         top: 0;
@@ -399,6 +388,7 @@ dl, ol, ul {
         top: 0.2em;
 }
 }
+
 .edric .im-sheep {
     display: inline-block;
     position: relative;
@@ -406,17 +396,20 @@ dl, ol, ul {
     margin-bottom: 70px;
     margin-top: 50px;
 }
+
 .edric .im-sheep * {
     -webkit-transition: transform 0.3s;
     -moz-transition: transform 0.3s;
     -o-transition: transform 0.3s;
     transition: transform 0.3s;
 }
+
 .edric .im-sheep .top {
     position: relative;
     top: 0;
     animation: bob 1s infinite;
 }
+
 .edric .im-sheep:hover .head {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -424,16 +417,20 @@ dl, ol, ul {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
 }
+
 .edric .im-sheep:hover .head .im-eye {
     width: 1.25em;
     height: 1.25em;
 }
+
 .edric .im-sheep:hover .head .im-eye:before {
     right: 30%;
 }
+
 .edric .im-sheep:hover .top {
     animation-play-state: paused;
 }
+
 .edric .im-sheep .head {
     display: inline-block;
     width: 5em;
@@ -451,6 +448,7 @@ dl, ol, ul {
     -o-transform: rotate(30deg);
     transform: rotate(30deg);
 }
+
 .edric .im-sheep .head:before {
     content: '';
     display: inline-block;
@@ -464,7 +462,8 @@ dl, ol, ul {
     -moz-border-radius: 50% 40%;
     border-radius: 50% 40%;
 }
-.edric .im-sheep .head:hover .im-ear.one, 
+
+.edric .im-sheep .head:hover .im-ear.one,
 .edric .im-sheep .head:hover .im-ear.two {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -472,6 +471,7 @@ dl, ol, ul {
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
 }
+
 .edric .im-sheep .head .im-eye {
     display: inline-block;
     width: 1em;
@@ -483,6 +483,7 @@ dl, ol, ul {
     position: absolute;
     overflow: hidden;
 }
+
 .edric .im-sheep .head .im-eye:before {
     content: '';
     display: inline-block;
@@ -500,14 +501,17 @@ dl, ol, ul {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .edric .im-sheep .head .im-eye.one {
     right: -2%;
     top: 1.7em;
 }
+
 .edric .im-sheep .head .im-eye.two {
     right: 2.5em;
     top: 1.7em;
 }
+
 .edric .im-sheep .head .im-ear {
     background:  var(--light-brand-color);
     width: 50%;
@@ -517,6 +521,7 @@ dl, ol, ul {
     border-radius: 100%;
     position: absolute;
 }
+
 .edric .im-sheep .head .im-ear.one {
     left: -10%;
     top: 5%;
@@ -526,6 +531,7 @@ dl, ol, ul {
     -o-transform: rotate(-30deg);
     transform: rotate(-30deg);
 }
+
 .edric .im-sheep .head .im-ear.two {
     top: 2%;
     right: -5%;
@@ -535,6 +541,7 @@ dl, ol, ul {
     -o-transform: rotate(20deg);
     transform: rotate(20deg);
 }
+
 .edric .im-sheep .body {
     display: inline-block;
     width: 7em;
@@ -547,6 +554,7 @@ dl, ol, ul {
     vertical-align: middle;
     margin-right: -3em;
 }
+
 .edric .im-sheep .im-legs {
     display: inline-block;
     position: absolute;
@@ -554,6 +562,7 @@ dl, ol, ul {
     left: 10%;
     z-index: -1;
 }
+
 .edric .im-sheep .im-legs .im-leg {
     display: inline-block;
     background: #141214;
@@ -561,6 +570,7 @@ dl, ol, ul {
     height: 2.5em;
     margin: 0.2em;
 }
+
 .edric .im-sheep::before {
     left: 0;
     content: '';
@@ -574,6 +584,3 @@ dl, ol, ul {
     border-radius: 100%;
     background: rgba(0, 0, 0, 0.2);
 }
-
-
-
