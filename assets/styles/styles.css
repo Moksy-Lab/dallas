@@ -9,9 +9,9 @@
         --error-color: #EA0000;
         --main-background-color : #f8f9fa;
         --light-background-color : #fbfbfb;
-        --default-font : Roboto, sans-serif;
-        --primary-font : Roboto Condensed, sans-serif;
-        --secondary-font : Roboto, sans-serif;
+        --default-font : 'Dongle', sans-serif;
+        --primary-font : 'Dongle', sans-serif;
+        --secondary-font : 'Dongle', sans-serif;
         --default-font-size: 16px;
     }
     
@@ -183,3 +183,48 @@
         color: var(--text-color)
     }
 /* #hau(h1e97f7dfe444eafd) #css ends */
+
+/* #anru(h4979acb58594d1e7) #css starts  */
+.abouth4979acb58594d1e7 .DescriptionHeading {
+    font-size: 35px;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 50px
+}
+.jumbotron{
+    margin-top: -77px;
+}
+.abouth4979acb58594d1e7 .DescriptionPara {
+    color: #747474;
+    font-weight: 500;
+    font-size: 18px
+}
+
+.abouth4979acb58594d1e7 .descriptionImage img{
+    height: 600px;
+    width: 500px
+}
+.abouth4979acb58594d1e7 .searchBtn{
+    background-color:#16CC9E;
+    border-radius: 10px;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: bold
+}
+.abouth4979acb58594d1e7 .teacher{
+   color: #383FBF;
+   padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-left:none;
+    border-radius: 10px
+}
+/* Small screens (portrait) */
+@media only screen and (min-width: 320px) {
+.abouth4979acb58594d1e7 .teacher{   
+   margin-top: 5px;
+}
+}
+/* #anru(h4979acb58594d1e7) #css ends  */
