@@ -255,6 +255,6 @@
   }
   
   /* Apply the animation to the image */
-  img {
+ .img-fluid {
     animation: updown 3s ease infinite;
   }
