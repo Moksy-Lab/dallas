@@ -25,14 +25,6 @@
      font-family: var(--primary-font);
     }
     
-    section{
-        border-bottom: none;
-        margin-bottom: 25px;
-    }
-    
-    footer #footer{
-        margin-bottom: 0px;
-    }
     
     a {   
         color: var(--text-color);
@@ -155,6 +147,20 @@
     
     /* Typography Ends here */  
 
+    .fade-in {
+        opacity: 0;
+        animation: fadeIn ease 2s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
 
 
     /* #hau(h1e97f7dfe444eafd) #css starts */
@@ -190,9 +196,6 @@
     font-weight: 800;
     color: #000000;
     margin-top: 50px
-}
-.jumbotron{
-    margin-top: -77px;
 }
 .abouth4979acb58594d1e7 .DescriptionPara {
     color: #747474;
