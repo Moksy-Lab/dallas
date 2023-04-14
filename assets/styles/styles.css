@@ -149,7 +149,7 @@
 
     .fade-in {
         opacity: 0;
-        animation: fadeIn ease 2s;
+        animation: fadeIn ease 1s;
         animation-fill-mode: forwards;
       }
       
@@ -162,6 +162,15 @@
         }
       }
 
+.headerAnim{
+    animation: fadeInDown; 
+    animation-duration: 3s;
+}
+
+ .my-element{
+    animation: fadeInDown; 
+    animation-duration: 1s; 
+ }     
 
     /* #hau(h1e97f7dfe444eafd) #css starts */
 .headerh1e97f7dfe444eafd .navbar-light .navbar-nav .nav-link{
@@ -231,3 +240,21 @@
 }
 }
 /* #anru(h4979acb58594d1e7) #css ends  */
+
+/* Define the animation */
+@keyframes updown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the image */
+  img {
+    animation: updown 3s ease infinite;
+  }
