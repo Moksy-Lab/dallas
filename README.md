@@ -60,13 +60,13 @@ Contact us
 ## Live site Preview
 
 
-[Illinois](https://moksy.com/templates/illinois/?project_id=16466)
+[Dallas](https://moksy.com/templates/dallas/?project_id=19276)
 
 
 
 
 ## Github Preview
-[Illinois](https://moksy-lab.github.io/illinois/)
+[Dallas](https://moksy-lab.github.io/dallas/)
 
 
 
